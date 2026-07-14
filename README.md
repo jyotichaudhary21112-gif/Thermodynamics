@@ -1,50 +1,35 @@
+# 🌡️ Thermodynamics in Materials Science: Knowledge Base
 
-
-# 🌡️ Thermodynamics in Materials Science: Syllabus
-
-This repository serves as a technical curriculum for the thermodynamic foundations of materials processing. The course of study progresses from fundamental equilibrium principles to the kinetics of phase transformation.
+This repository contains my personal notes and derivations for the thermodynamics of materials, specifically focusing on solidification theory and phase stability.
 
 ---
 
-## 📚 Curriculum Roadmap
+## 📚 Syllabus: Learning Path
 
-### 1. Fundamental Principles
-* **Laws of Thermodynamics:** First and Second Laws, Internal Energy ($U$), Enthalpy ($H$), and Entropy ($S$).
-* **Thermodynamic Potentials:** Transitioning from $U(S, V)$ to $G(T, P)$ for constant temperature/pressure experimental conditions.
-* **Phase Equilibrium:** Criteria for phase co-existence, chemical potential, and the Gibbs-Duhem relation.
+### 1. Fundamentals of Energy
+* **Laws of Thermodynamics:** Understanding Internal Energy ($U$) and the First Law ($dU = \delta Q + \delta W$).
+* **Exact Differentials:** Why $U(T,V)$ is difficult to control in lab settings and why we need alternative functions.
+* **Enthalpy & Gibbs Free Energy:** Using $G = H - TS$ as the natural choice for experiments at constant Temperature and Pressure.
 
+### 2. Phase Equilibrium & Boundaries
+* **Equilibrium Criteria:** A system reaches equilibrium when Gibbs free energy is minimized ($G_s^m = G_l^m$).
+* **Clausius-Clapeyron Relation:** How phase coexistence curves ($dT/dP$) are derived from the equality of chemical potentials.
+* **P-T Phase Diagrams:** Understanding the physical significance of the slopes of coexistence curves (e.g., water).
 
+### 3. Interfacial Thermodynamics & Capillarity
+* **Surface Energy ($\gamma_{sl}$):** The energy penalty required to form a new interface between solid and liquid phases.
+* **Curved Interfaces:** The Gibbs-Thomson effect, where curvature ($\bar{\kappa}$) alters local melting points.
+* **Analogy to Pressure:** The similarity between interfacial curvature terms ($2\bar{\kappa}\gamma_{sl}$) and the Young-Laplace pressure in soap bubbles.
 
-### 2. Phase Stability & Boundaries
-* **The Clausius-Clapeyron Equation:** Quantifying the shift in melting temperature due to pressure:
-  $$\frac{dT}{dP} = \frac{V_l^m - V_s^m}{S_l^m - S_s^m}$$
-* **Curved Interfaces:** The thermodynamics of the solid-liquid interface ($\gamma_{sl}$), mean curvature ($\bar{\kappa}$), and the Young-Laplace pressure.
-
-
-
-[Image of P-T phase diagram of water]
-
-
-### 3. Nucleation Theory
-* **Driving Force:** Calculation of the volumetric Gibbs free energy change ($\Delta G_v$) due to undercooling ($\Delta T$).
-* **Critical Nucleation:** Homogeneous vs. Heterogeneous nucleation.
-* **Nucleation Barrier:** Derivation of the critical radius ($r^*$) and the activation energy barrier ($\Delta G^*$).
-
-
-
-### 4. Interface Kinetics & Growth
-* **Stefan Boundary Condition:** Heat flux balance at the advancing solid-liquid interface $\Gamma(t)$.
-* **Solute Redistribution:** Equilibrium partitioning ($k = C_s^* / C_l^*$) and diffusion in the liquid.
-* **Constitutional Supercooling:** The condition for planar-to-dendritic transition.
-
-
+### 4. Solidification Kinetics
+* **Cooling Curves:** Understanding the undercooling ($\Delta T$) and the thermal evolution of a system during solidification.
 
 ---
 
-## 🛠 Repository Objectives
-- [ ] Derive the Clausius-Clapeyron relation from first principles.
-- [ ] Calculate critical nucleus size ($r^*$) for refractory metals (Mo, W).
-- [ ] Simulate interface velocity ($v$) using heat/mass balance models.
+## 🚀 Research Objectives
+- [ ] Implement numerical solvers for the Clausius-Clapeyron equation.
+- [ ] Visualize phase stability boundaries for refractory metals.
+- [ ] Model the solidification interface using curvature-dependent kinetics.
 
 ---
 
