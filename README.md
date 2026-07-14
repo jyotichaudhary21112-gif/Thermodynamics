@@ -1,35 +1,34 @@
 # 🌡️ Thermodynamics in Materials Science: Knowledge Base
 
-This repository contains my personal notes and derivations for the thermodynamics of materials, specifically focusing on solidification theory and phase stability.
+This repository contains my structured study and research notes, organized according to the fundamental principles of thermodynamic systems, phase equilibrium, and capillarity effects.
 
 ---
 
-## 📚 Syllabus: Learning Path
+## 📚 Curriculum Table of Contents
 
-### 1. Fundamentals of Energy
-* **Laws of Thermodynamics:** Understanding Internal Energy ($U$) and the First Law ($dU = \delta Q + \delta W$).
-* **Exact Differentials:** Why $U(T,V)$ is difficult to control in lab settings and why we need alternative functions.
-* **Enthalpy & Gibbs Free Energy:** Using $G = H - TS$ as the natural choice for experiments at constant Temperature and Pressure.
-
-### 2. Phase Equilibrium & Boundaries
-* **Equilibrium Criteria:** A system reaches equilibrium when Gibbs free energy is minimized ($G_s^m = G_l^m$).
-* **Clausius-Clapeyron Relation:** How phase coexistence curves ($dT/dP$) are derived from the equality of chemical potentials.
-* **P-T Phase Diagrams:** Understanding the physical significance of the slopes of coexistence curves (e.g., water).
-
-### 3. Interfacial Thermodynamics & Capillarity
-* **Surface Energy ($\gamma_{sl}$):** The energy penalty required to form a new interface between solid and liquid phases.
-* **Curved Interfaces:** The Gibbs-Thomson effect, where curvature ($\bar{\kappa}$) alters local melting points.
-* **Analogy to Pressure:** The similarity between interfacial curvature terms ($2\bar{\kappa}\gamma_{sl}$) and the Young-Laplace pressure in soap bubbles.
-
-### 4. Solidification Kinetics
-* **Cooling Curves:** Understanding the undercooling ($\Delta T$) and the thermal evolution of a system during solidification.
+| Chapter | Topic | Focus Area |
+| :--- | :--- | :--- |
+| **1** | Why Study Thermodynamics? | Introduction & Motivation |
+| **2** | The Structure of Thermodynamics | Theoretical Frameworks |
+| **3** | The Laws of Thermodynamics | Fundamental Energy Principles |
+| **4** | Thermodynamic Variables and Relations | State Functions & Differentials |
+| **5** | Equilibrium in Thermodynamic Systems | Minimum Energy Criteria |
+| **6** | Statistical Thermodynamics | Microscopic Foundations |
+| **7** | Unary Heterogeneous Systems | Phase Transitions |
+| **8** | Multicomponent Homogeneous Systems | Solutions & Mixtures |
+| **9** | Multicomponent Heterogeneous Systems | Phase Stability |
+| **10** | Thermodynamics of Phase Diagrams | Co-existence Curves |
+| **11** | Multicomponent Multiphase Reacting Systems | Kinetic & Chemical Equilibrium |
+| **12** | Capillarity Effects in Thermodynamics | Curvature & Surface Energy |
+| **13** | Defects in Crystals | Structural Thermodynamics |
 
 ---
 
-## 🚀 Research Objectives
-- [ ] Implement numerical solvers for the Clausius-Clapeyron equation.
-- [ ] Visualize phase stability boundaries for refractory metals.
-- [ ] Model the solidification interface using curvature-dependent kinetics.
+## 🚀 Core Research Objectives
+
+* **Phase Equilibrium:** Mastery of Gibbs free energy minimization ($G_s^m = G_l^m$) to define phase stability.
+* **Phase Boundaries:** Derivation of the Clausius-Clapeyron relation to understand the temperature-pressure dependence of phase coexistence.
+* **Interfacial Physics:** Investigation of how surface energy ($\gamma_{sl}$) and interface curvature ($\bar{\kappa}$) impact the thermodynamics of solidification.
 
 ---
 
