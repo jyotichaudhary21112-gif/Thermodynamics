@@ -16,10 +16,9 @@ A system is said to be in **thermodynamic equilibrium** when:
 - The system remains in a state of rest.
 
 For an ideal gas,
-
-\[
+$$
 PV = RT
-\]
+$$
 
 Therefore, if **Pressure (P)** and **Temperature (T)** are fixed, **Volume (V)** is also fixed.
 
@@ -36,10 +35,9 @@ dU=\delta Q-\delta W
 $$
 
 where
-
-- \(dU\) = Change in internal energy
-- \(\delta Q\) = Heat supplied to the system
-- \(\delta W\) = Work done by the system
+- **dU** = Change in internal energy
+- **δQ** = Heat supplied to the system
+- **δW** = Work done by the system
 
 ---
 
@@ -49,23 +47,23 @@ where
 
 For an isothermal process,
 
-\[
+$$
 dU=0
-\]
+$$
 
 Therefore,
 
-\[
+$$
 \delta Q=\delta W
-\]
+$$
 
 For **1 mole of an ideal gas**,
 
-\[
+$$
 W_{rev}=Q_{rev}
 =
 RT\ln\left(\frac{V_2}{V_1}\right)
-\]
+$$
 
 ### Key Points
 
