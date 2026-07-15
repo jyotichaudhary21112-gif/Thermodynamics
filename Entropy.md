@@ -31,9 +31,9 @@ Hence, the thermodynamic state of the system is completely defined.
 
 The First Law is
 
-\[
-dU=$\delta Q$-$\delta W$
-\]
+$$
+dU=\delta Q-\delta W
+$$
 
 where
 
