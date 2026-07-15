@@ -1,7 +1,6 @@
 # 📘 Statistical Thermodynamics - Part 3
 # Multiplicity (Ω) and Combinatorial Analysis
 
-> **Chapter 6 – Statistical Thermodynamics**
 
 In the previous section, we learned that a single macrostate can correspond to many different microstates.
 
